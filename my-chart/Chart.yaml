@@ -1,0 +1,5 @@
+apiVersion: v2 # 
+name: my-chart # chart name
+type: application
+version: 0.1.0 # chart version
+appVersion: "latest" # image version
