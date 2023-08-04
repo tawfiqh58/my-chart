@@ -15,4 +15,18 @@ by simply creating
 
 Github will automatically treat it as github pages
 
-Goto: https://tawfiqh58.github.io/my-chart
+Goto: https://tawfiqh58.github.io/my-chart/my-repo
+
+---
+
+## Add repository
+
+```shell
+helm repo add express-server https://tawfiqh58.github.io/my-chart/my-repo/
+```
+
+## Install chart
+
+```shell
+helm install my-my-chart express-server/my-chart --version 0.1.0
+```
