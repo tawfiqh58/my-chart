@@ -5,7 +5,7 @@ metadata:
   labels:
     {{- include "my-chart.labels" . | nindent 4 }}
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       {{- include "my-chart.selectorLabels" . | nindent 6 }}
