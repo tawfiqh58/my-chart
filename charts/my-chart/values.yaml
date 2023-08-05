@@ -1,5 +1,7 @@
 image:
   repository: tawfiq58/express-server
+  tag: "latest"
+chartVersion: 0.1.1
 nameOverride: ""
 fullnameOverride: ""
 service:
