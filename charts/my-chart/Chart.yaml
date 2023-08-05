@@ -2,4 +2,4 @@ apiVersion: v2 #
 name: my-chart # chart name
 type: application
 version: 0.1.1 # chart version
-appVersion: "z9720" # image version
+appVersion: 0.1.1 # image version
